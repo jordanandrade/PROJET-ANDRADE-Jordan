@@ -59,13 +59,13 @@ $options = [
 // });
 
 
-$app->get('/api/hello/{name}', function (Request $request, Response $response, $args) {
-    $array = [];
-    $array ["nom"] = $args ['name'];
-    $response->getBody()->write(json_encode ($array));
-    $response = @addCorsHeaders($response);
-    return $response;
-});
+// $app->get('/api/hello/{name}', function (Request $request, Response $response, $args) {
+//     $array = [];
+//     $array ["nom"] = $args ['name'];
+//     $response->getBody()->write(json_encode ($array));
+//     $response = @addCorsHeaders($response);
+//     return $response;
+// });
 
 $app->post('/api/login', function (Request $request, Response $response, $args) {    
     global $entityManager;

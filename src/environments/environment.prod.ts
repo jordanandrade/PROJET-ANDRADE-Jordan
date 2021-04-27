@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://127.0.0.1:80/api/catalogue',
+  baseUrl: 'https://nfe114-projet.herokuapp.com/api/catalogue',
 };
