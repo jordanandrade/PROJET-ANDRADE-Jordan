@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: '/assets/mock/bouchon.json',
+  baseUrl: 'http://127.0.0.1:80/api/catalogue',
 };
