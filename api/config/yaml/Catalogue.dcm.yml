@@ -1,0 +1,31 @@
+Catalogue:
+    type: entity
+    table: catalogue
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: SEQUENCE
+    fields:
+        ref:
+            type: string
+            nullable: true
+            length: 50
+            options:
+                fixed: false
+        titre:
+            type: string
+            nullable: true
+            length: 255
+            options:
+                fixed: false
+        prix:
+            type: float
+            nullable: true
+            precision: 10
+            scale: 0
+    lifecycleCallbacks: {  }

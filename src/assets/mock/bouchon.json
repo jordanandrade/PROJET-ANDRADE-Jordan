@@ -1,0 +1,6 @@
+[
+    {"ref":"fef01","modele":"Ferrari","prix":100000},
+    {"ref":"ren01","modele":"Twingo","prix":150000},
+    {"ref":"lamb01","modele":"Lamborghini","prix":50000},
+    {"ref":"mus01","modele":"Mustang","prix":50000}
+]
